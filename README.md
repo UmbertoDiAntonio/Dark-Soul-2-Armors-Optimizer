@@ -55,7 +55,7 @@ param W_Phys    default 2.0;   # Physical
 param W_Fire    default 1.8;
 param W_Mag     default 1.0;   # Magic
 param W_Dark    default 1.6;
-param W_Thr     default 1.7;   # Thunder/Lightning
+param W_Thr     default 1.7;   # Thrust
 param W_Sls     default 1.8;   # Slash
 param W_Poise   default 1.9;
 param W_Bleed   default 0.6;
