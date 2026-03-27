@@ -66,18 +66,18 @@ param W_Curse   default 0.4;
 Higher value = higher priority for that stat.
 
 # Notes
-
-The light version removes non-upgraded armors (nobody wants base armor anyway, right?).
-Feel free to fork and extend it for Dark Souls 1 or Elden Ring!
+<br>
+The light version removes non-upgraded armors (nobody wants base armor anyway, right?).<br>
+Feel free to fork and extend it for Dark Souls 1 or Elden Ring!<br>
 
 # Future Plans
 
-Support for Dark Souls 1 and Elden Ring
-Better output formatting
+- Support for Dark Souls 1 and Elden Ring
+- Better output formatting
 
 # Contributing
-Suggestions, bug reports and pull requests are welcome!
-If you improve the model or add new features, feel free to open a PR.
-
-Made with ❤️ for the Dark Souls community
-If you find this useful, leave a star ⭐ on the repo!
+Suggestions, bug reports and pull requests are welcome!<br>
+If you improve the model or add new features, feel free to open a PR.<br>
+<br>
+Made with ❤️ for the Dark Souls community<br>
+If you find this useful, leave a star ⭐ on the repo!<br>
