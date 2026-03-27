@@ -7,9 +7,8 @@ set ARMORS;
 # Slot e limiti
 param SLOT{ARMORS} symbolic;          # "head", "chest", "arms", "legs"
 param weightLimit;
-param constWeight;                    #peso di anelli, scudi, armi
+param constWeight;                    # peso di anelli, scudi, armi
 
-# Statistiche di difesa (tutte le colonne del tuo file .dat)
 param Phys{ARMORS} default 0;
 param Fire{ARMORS} default 0;
 param Mag{ARMORS} default 0;
@@ -27,8 +26,7 @@ param Scaling{ARMORS} symbolic default "";                          # non usato
 param Reinforcement{ARMORS} symbolic default "";                    
 param Effect{ARMORS} symbolic default "";                           # non usato 
 
-# ============================================================ PESi  ============================================================ <------Modificare 
-# Questi li setti nel tuo .dat o nel file .run
+# ============================================================ PESi  ============================================================ (EDITABLE)
 param W_Phys   default 2;
 param W_Fire   default 1.8;
 param W_Mag    default 1.0;
@@ -41,8 +39,7 @@ param W_Poison default 0.5;
 param W_Petrify default 0.3;
 param W_Curse  default 0.4;
 
-# =============== NORMALIZZAZIONE AUTOMATICA ===============
-# Calcola il valore massimo di ogni statistica su tutti gli armor
+# =============== NORMALIZZAZIONE AUTOMATICA =============== (DONT'CHANGE)
 param MaxPhys   := max {a in ARMORS} Phys[a];
 param MaxFire   := max {a in ARMORS} Fire[a];
 param MaxMag    := max {a in ARMORS} Mag[a];
@@ -55,14 +52,10 @@ param MaxPoison := max {a in ARMORS} Poison[a];
 param MaxPetrify:= max {a in ARMORS} Petrify[a];
 param MaxCurse  := max {a in ARMORS} Curse[a];
 
-# =============== VARIABILI ===============
+# =============== VARIABILI ===============  (DONT'CHANGE)
 var x{ARMORS} binary;   # 1 = equipaggiato
 
-# =============== OBJECTIVE (la vera magia) ===============
-# Massimizza la somma pesata e normalizzata di TUTTO
-
-
-
+# =============== OBJECTIVE  =============== (DONT'CHANGE)
 maximize TotalDefense:
     sum {a in ARMORS} x[a] *
     (
@@ -79,9 +72,13 @@ maximize TotalDefense:
         W_Curse  * (if MaxCurse  > 0 then Curse[a]/MaxCurse  else 0)
     );
 
-# =============== VINCOLI ===============
+# =============== VINCOLI =============== (DONT'CHANGE)
 subject to OnePerSlot {s in {"head","chest","arms","legs"}}:
     sum {a in ARMORS: SLOT[a] = s} x[a] <= 1;
+
+# =============================================
+# VINCOLI : PESO  
+# =============================================
 
 subject to WeightConstraint:
     sum {a in ARMORS} Weight[a] * x[a]+constWeight <= weightLimit;           #se usi il peso massimo come riferimento
