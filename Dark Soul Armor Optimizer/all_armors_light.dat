@@ -79,7 +79,6 @@ set ARMORS :=
 "Black Hollow Mage Robe+10"
 "White Priest Robe+10"
 "Armor of Aurous (Transparent)+5"
-"Armor of Aurous (Transparent)"
 "Bringand Armor+10"
 "Dingy Robe+10"
 "Cale's Leather Armor+10"
@@ -193,7 +192,6 @@ set ARMORS :=
 "Leydia Gauntlets+10"
 "Monastary Long Gloves+5"
 "Tseldora Manchettes+10"
-"Gauntlets of Aurous (transparent)"
 "Imported Manchettes+10"
 "Peasant Long Gloves+10"
 "Prisoner's Gloves+10"
@@ -287,7 +285,6 @@ set ARMORS :=
 "White Priest Headset+10"
 "Peasant Hat+10"
 "Brigand Hood+10"
-"Helm of Aurous (Transparent)"
 "Helm of Aurous+5 (Transparent)"
 "Hunter's Hat+10"
 "Priestess Headpiece+10"
@@ -362,7 +359,6 @@ set ARMORS :=
 "King's Leggings+5"
 "Knight Leggings+10"
 "Leather Boots+10"
-"Leggings of Aurous (transparent)"
 "Leggings of Aurous (transparent)+5"
 "Leggings of Aurous+5"
 "Lion Mage Skirt+10"
@@ -407,7 +403,7 @@ set ARMORS :=
 "Xanthous Waistcloth+5"
 ;
 
-param: SLOT Phys Fire Mag Dark Thr Sls Poise Bleed Poison Petrify Curse Dur Weight :=
+param: 				SLOT 	Phys 	Fire 	Mag 	Dark 	Thr 	Sls 	Poise Bleed Poison Petrify Curse Dur Weight :=
 "Ironclad Armor+10" "chest" 343 59 54 54 343 365 32.00 93 30 0 0 90 29.80
 "Old Ironclad Armor+10" "chest" 301 47 43 43 301 323 28.00 75 25 0 0 45 29.80
 "Havel's Armor+5" "chest" 437 67 62 62 437 491 47.00 103 25 49 49 255 19.50
@@ -487,7 +483,6 @@ param: SLOT Phys Fire Mag Dark Thr Sls Poise Bleed Poison Petrify Curse Dur Weig
 "Black Hollow Mage Robe+10" "chest" 110 67 94 79 109 109 0.00 42 46 43 43 50 3.30
 "White Priest Robe+10" "chest" 111 66 66 73 108 108 0.00 43 45 42 42 50 3.30
 "Armor of Aurous (Transparent)+5" "chest" 115 37 45 41 111 109 0.00 36 31 0 0 40 3.20
-"Armor of Aurous (Transparent)" "chest" 76 25 30 28 74 72 0.00 24 20 0 0 40 3.20
 "Bringand Armor+10" "chest" 113 45 56 48 105 111 0.00 46 46 0 0 60 3.10
 "Dingy Robe+10" "chest" 108 55 65 62 101 101 0.00 46 41 92 92 40 3.00
 "Cale's Leather Armor+10" "chest" 78 23 22 22 80 77 0.00 21 34 0 0 60 3.00
@@ -601,7 +596,6 @@ param: SLOT Phys Fire Mag Dark Thr Sls Poise Bleed Poison Petrify Curse Dur Weig
 "Leydia Gauntlets+10" "arms" 33 22 22 28 32 32 0.00 15 16 12 19 50 1.20
 "Monastary Long Gloves+5" "arms" 34 22 30 22 31 31 0.00 23 37 21 25 55 0.90
 "Tseldora Manchettes+10" "arms" 29 14 13 13 28 28 0.00 14 14 0 0 40 2.00
-"Gauntlets of Aurous (transparent)" "arms" 29 9 11 10 28 27 0.00 9 8 0 0 40 1.20
 "Imported Manchettes+10" "arms" 26 7 8 8 25 25 0.00 10 9 0 0 35 1.80
 "Peasant Long Gloves+10" "arms" 24 12 11 11 23 23 0.00 14 17 0 0 45 1.80
 "Prisoner's Gloves+10" "arms" 10 11 10 12 9 9 0.00 9 12 0 0 25 1.00
@@ -695,7 +689,6 @@ param: SLOT Phys Fire Mag Dark Thr Sls Poise Bleed Poison Petrify Curse Dur Weig
 "White Priest Headset+10" "head" 47 28 28 31 46 46 0.00 9 10 9 9 50 1.40
 "Peasant Hat+10" "head" 17 9 8 6 16 16 0.00 10 12 0 0 45 1.30
 "Brigand Hood+10" "head" 44 17 22 19 41 43 0.00 18 18 0 0 60 1.20
-"Helm of Aurous (Transparent)" "head" 29 9 11 10 28 27 0.00 9 8 0 0 40 1.20
 "Helm of Aurous+5 (Transparent)" "head" 43 14 17 15 42 41 0.00 13 12 0 0 40 1.20
 "Hunter's Hat+10" "head" 33 8 12 13 32 32 0.00 11 13 0 0 50 1.20
 "Priestess Headpiece+10" "head" 46 28 28 31 44 44 0.00 18 19 22 22 50 1.20
@@ -770,7 +763,6 @@ param: SLOT Phys Fire Mag Dark Thr Sls Poise Bleed Poison Petrify Curse Dur Weig
 "King's Leggings+5" "legs" 127 42 42 30 127 134 10.00 43 48 47 0 120 7.10
 "Knight Leggings+10" "legs" 108 35 32 32 108 123 12.00 40 29 0 0 80 6.40
 "Leather Boots+10" "legs" 77 18 28 30 75 75 0.00 26 31 0 0 60 2.80
-"Leggings of Aurous (transparent)" "legs" 48 15 19 17 46 45 0.00 15 13 0 0 40 2.00
 "Leggings of Aurous (transparent)+5" "legs" 72 23 28 26 69 68 0.00 22 19 0 0 40 2.00
 "Leggings of Aurous+5" "legs" 105 36 37 40 106 110 10.00 37 29 0 0 80 5.80
 "Lion Mage Skirt+10" "legs" 50 38 47 47 46 46 0.00 22 22 25 57 40 1.30
@@ -895,7 +887,6 @@ param Scaling :=
 "Black Hollow Mage Robe+10" "B"
 "White Priest Robe+10" "B"
 "Armor of Aurous (Transparent)+5" "B"
-"Armor of Aurous (Transparent)" "B"
 "Bringand Armor+10" "B"
 "Dingy Robe+10" "B"
 "Cale's Leather Armor+10" "B"
@@ -1009,7 +1000,6 @@ param Scaling :=
 "Leydia Gauntlets+10" "E"
 "Monastary Long Gloves+5" "E"
 "Tseldora Manchettes+10" "E"
-"Gauntlets of Aurous (transparent)" "E"
 "Imported Manchettes+10" "D"
 "Peasant Long Gloves+10" "E"
 "Prisoner's Gloves+10" "E"
@@ -1103,7 +1093,6 @@ param Scaling :=
 "White Priest Headset+10" "E"
 "Peasant Hat+10" "E"
 "Brigand Hood+10" "E"
-"Helm of Aurous (Transparent)" "E"
 "Helm of Aurous+5 (Transparent)" "E"
 "Hunter's Hat+10" "D"
 "Priestess Headpiece+10" "E"
@@ -1178,7 +1167,6 @@ param Scaling :=
 "King's Leggings+5" "C"
 "Knight Leggings+10" "C"
 "Leather Boots+10" "D"
-"Leggings of Aurous (transparent)" "E"
 "Leggings of Aurous (transparent)+5" "E"
 "Leggings of Aurous+5" "C"
 "Lion Mage Skirt+10" "E"
@@ -1303,7 +1291,6 @@ param Reinforcement :=
 "Black Hollow Mage Robe+10" "Titanite"
 "White Priest Robe+10" "Titanite"
 "Armor of Aurous (Transparent)+5" "Twinkling Titanite"
-"Armor of Aurous (Transparent)" "Twinkling Titanite"
 "Bringand Armor+10" "Titanite"
 "Dingy Robe+10" "Titanite"
 "Cale's Leather Armor+10" "Titanite"
@@ -1417,7 +1404,6 @@ param Reinforcement :=
 "Leydia Gauntlets+10" "Titanite"
 "Monastary Long Gloves+5" "Twinkling Titanite"
 "Tseldora Manchettes+10" "Titanite"
-"Gauntlets of Aurous (transparent)" "Twinkling Titanite"
 "Imported Manchettes+10" "Titanite"
 "Peasant Long Gloves+10" "Titanite"
 "Prisoner's Gloves+10" "Titanite"
@@ -1511,7 +1497,6 @@ param Reinforcement :=
 "White Priest Headset+10" "Titanite"
 "Peasant Hat+10" "Titanite"
 "Brigand Hood+10" "Titanite"
-"Helm of Aurous (Transparent)" "Twinkling Titanite"
 "Helm of Aurous+5 (Transparent)" "Twinkling Titanite"
 "Hunter's Hat+10" "Titanite"
 "Priestess Headpiece+10" "Titanite"
@@ -1586,7 +1571,6 @@ param Reinforcement :=
 "King's Leggings+5" "Twinkling Titanite"
 "Knight Leggings+10" "Titanite"
 "Leather Boots+10" "Titanite"
-"Leggings of Aurous (transparent)" "Twinkling Titanite"
 "Leggings of Aurous (transparent)+5" "Twinkling Titanite"
 "Leggings of Aurous+5" "Twinkling Titanite"
 "Lion Mage Skirt+10" "Titanite"
@@ -1711,7 +1695,6 @@ param Effect :=
 "Black Hollow Mage Robe+10" "INT +1"
 "White Priest Robe+10" """"
 "Armor of Aurous (Transparent)+5" "Raises Equipment Load"
-"Armor of Aurous (Transparent)" "Raises Equipment Load"
 "Bringand Armor+10" """"
 "Dingy Robe+10" """"
 "Cale's Leather Armor+10" """"
@@ -1810,7 +1793,7 @@ param Effect :=
 "Lion Mage Cuffs+10" "Casting Speed +"
 "Manikin Gloves+10" """"
 "Engraved Gauntlets+5" "Critical Hit Chance"
-"Gauntlets of Aurous (transparent)+5" """"
+"Gauntlets of Aurous (transparent)+5" "Raises Equipment Load"
 "Hollow Infantry Gloves+10" """"
 "Xanthous Gloves+5" """"
 "Dingy Cuffs+10" """"
@@ -1825,7 +1808,6 @@ param Effect :=
 "Leydia Gauntlets+10" """"
 "Monastary Long Gloves+5" """"
 "Tseldora Manchettes+10" "Souls Aquired +"
-"Gauntlets of Aurous (transparent)" """"
 "Imported Manchettes+10" """"
 "Peasant Long Gloves+10" """"
 "Prisoner's Gloves+10" """"
@@ -1919,8 +1901,7 @@ param Effect :=
 "White Priest Headset+10" "Faith+1"
 "Peasant Hat+10" """"
 "Brigand Hood+10" """"
-"Helm of Aurous (Transparent)" """"
-"Helm of Aurous+5 (Transparent)" """"
+"Helm of Aurous+5 (Transparent)" "Raises Equipment Load"
 "Hunter's Hat+10" """"
 "Priestess Headpiece+10" "Faith+1"
 "Thief Mask+10" """"
@@ -1994,7 +1975,6 @@ param Effect :=
 "King's Leggings+5" """"
 "Knight Leggings+10" """"
 "Leather Boots+10" """"
-"Leggings of Aurous (transparent)" "Raises Equipment Load"
 "Leggings of Aurous (transparent)+5" "Raises Equipment Load"
 "Leggings of Aurous+5" """"
 "Lion Mage Skirt+10" "Casting Speed +"
@@ -2039,3 +2019,9 @@ param Effect :=
 "Xanthous Waistcloth+5" """"
 ;
 
+param LoadBonus :=
+"Penal Mask+5" 0.03
+"Leggings of Aurous (transparent)+5" 0.015
+"Armor of Aurous (Transparent)+5" 0.015
+"Helm of Aurous+5 (Transparent)" 0.01
+"Gauntlets of Aurous (transparent)+5" 0.01

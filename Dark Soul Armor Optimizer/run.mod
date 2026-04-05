@@ -2,9 +2,11 @@ reset;
 
 model modello.mod;
 data all_armors_light.dat;
+#data all_armors.dat;
 
-let weightLimit := 92.7;
-let constWeight:= 6+4.5+2.7+1.5;
+
+let weightLimit := 92;
+let constWeight:= 5.5+10.5;
 
 
 
@@ -16,8 +18,8 @@ solve;
 printf "\n=== RISULTATO OTTIMIZZAZIONE ===\n\n";
 
 printf "Peso totale equipaggiato: %.2f / %g  (%.1f%%)\n\n",
-    sum {a in ARMORS} Weight[a] * x[a]+constWeight, weightLimit,
-    100 * (sum {a in ARMORS} Weight[a] * x[a]+constWeight) / weightLimit;
+    sum {a in ARMORS} Weight[a] * x[a]+constWeight, weightLimit+100*totalLoadBonus,
+    100 * (sum {a in ARMORS} Weight[a] * x[a]+constWeight) / (weightLimit+100*totalLoadBonus);
 
 printf "Valore obiettivo (somma pesata normalizzata): %.4f\n\n",
     TotalDefense;

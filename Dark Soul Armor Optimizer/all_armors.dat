@@ -3974,3 +3974,14 @@ param Effect :=
 "Xanthous Waistcloth+5" """"
 ;
 
+param LoadBonus :=
+"Penal Mask+5" 0.03
+"Penal Mask" 0.03
+"Leggings of Aurous (transparent)" 0.015
+"Leggings of Aurous (transparent)+5" 0.015
+"Armor of Aurous (Transparent)+5" 0.015
+"Armor of Aurous (Transparent)" 0.015
+"Helm of Aurous+5 (Transparent)" 0.01
+"Helm of Aurous (Transparent)" 0.01
+"Gauntlets of Aurous (transparent)+5" 0.01
+"Gauntlets of Aurous (transparent)" 0.01

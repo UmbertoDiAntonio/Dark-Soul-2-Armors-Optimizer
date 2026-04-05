@@ -26,6 +26,8 @@ param Scaling{ARMORS} symbolic default "";                          # non usato
 param Reinforcement{ARMORS} symbolic default "";                    
 param Effect{ARMORS} symbolic default "";                           # non usato 
 
+param LoadBonus{ARMORS} default 0;   								# valore in decimale (es. 0.03 = +3%)
+
 # ============================================================ PESi  ============================================================ (EDITABLE)
 param W_Phys   default 2;
 param W_Fire   default 1.8;
@@ -54,6 +56,8 @@ param MaxCurse  := max {a in ARMORS} Curse[a];
 
 # =============== VARIABILI ===============  (DONT'CHANGE)
 var x{ARMORS} binary;   # 1 = equipaggiato
+var totalLoadBonus >= 0;
+
 
 # =============== OBJECTIVE  =============== (DONT'CHANGE)
 maximize TotalDefense:
@@ -75,32 +79,36 @@ maximize TotalDefense:
 # =============== VINCOLI =============== (DONT'CHANGE)
 subject to OnePerSlot {s in {"head","chest","arms","legs"}}:
     sum {a in ARMORS: SLOT[a] = s} x[a] <= 1;
+	
+subject to Define_totalLoadBonus:
+    totalLoadBonus = sum {a in ARMORS} LoadBonus[a] * x[a];
 
 # =============================================
 # VINCOLI : PESO  
 # =============================================
 
 subject to WeightConstraint:
-    sum {a in ARMORS} Weight[a] * x[a]+constWeight <= weightLimit;           #se usi il peso massimo come riferimento
-	
-	
+    sum {a in ARMORS} Weight[a] * x[a] + constWeight <= weightLimit * (1 + totalLoadBonus);
+
 subject to FastRoll:
-    sum {a in ARMORS} Weight[a] * x[a]+constWeight <= 40*weightLimit/100;    #se vuoi rimanere in fastRoll	
+    sum {a in ARMORS} Weight[a] * x[a] + constWeight <= 0.4 * weightLimit * (1 + totalLoadBonus);
 	
 	
 # =============================================
 # VINCOLI : PEZZI FISSATI   (con = 0 proibisci un pezzo) 
 # =============================================
-#subject to requiredArmor0: x["Lucatiel's Vest+10"] =1;
-#subject to requiredArmor1: x["Lucatiel's Trousers+10"] =1;
-#subject to requiredArmor2: x["Agdayne's Cuffs+5"] =1;
+#subject to requiredArmor0: x["Llewellyn Shoes+5"] =1;
+#subject to requiredArmor1: x["Llewellyn Gloves+5"] =1;
+#subject to requiredArmor2: x["Llewellyn Armor+5"] =1;
 
 
 # =============================================
 # VINCOLI : Nome
 # =============================================
-subject to noSpecificSet0: sum {a in ARMORS: match(a, "Hexer") != 0} x[a] = 0;
-subject to noSpecificSet1: sum {a in ARMORS: match(a, "Black Hollow Mage") != 0} x[a] = 0;
+#subject to noSpecificSet0: sum {a in ARMORS: match(a, "Hexer") != 0} x[a] = 0;
+#subject to noSpecificSet1: sum {a in ARMORS: match(a, "Black Hollow Mage") != 0} x[a] = 0;
+#subject to noSpecificSet2: sum {a in ARMORS: match(a, "Mastodon") != 0} x[a] = 0;
+#subject to noSpecificSet3: sum {a in ARMORS: match(a, "Blood-Stained") != 0} x[a] = 0;
 
 #subject to noSpecificSetOnSlot: sum {a in ARMORS: SLOT[a] = "head" and match(a, "Moon Butterfly") != 0} x[a] = 0;
 
@@ -126,9 +134,10 @@ subject to noSpecificSet1: sum {a in ARMORS: match(a, "Black Hollow Mage") != 0}
 # =============================================
 # VINCOLI : DIFESA NEL RANGE
 # =============================================
-subject to DarkRange:
-    260 <= sum {a in ARMORS} Dark[a] * x[a] <= 900;
 
-subject to FireRange:
-    260 <= sum {a in ARMORS} Fire[a] * x[a] <= 900;
+# subject to DarkRange: 260 <= sum {a in ARMORS} Dark[a] * x[a] <= 900;
+# subject to FireRange:   260 <= sum {a in ARMORS} Fire[a] * x[a] <= 900;
+
+# subject to PhysRange: 500 <= sum {a in ARMORS} Phys[a] * x[a] <= 900;	
+	
 
