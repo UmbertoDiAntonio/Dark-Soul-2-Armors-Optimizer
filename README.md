@@ -18,7 +18,7 @@ It uses linear programming to give you the mathematically best setup for your bu
 
 ## How to Use
 
-1. Make sure you have **AMPL** installed (with the solver you prefer, e.g. Gurobi, CPLEX, or the free student version).
+1. Make sure you have **AMPL** installed (with the solver you prefer, e.g. Gurobi, CPLEX).
 2. Open a terminal / PowerShell / CMD in the project folder.
 3. Run AMPL:
    ```powershell
