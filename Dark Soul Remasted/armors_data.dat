@@ -1,0 +1,850 @@
+set ARMORS :=
+"Antiquated Dress+5"
+"Armor of Artorias+5"
+"Armor of the Sun+10"
+"Armor of Thorns+5"
+"Balder Armor+10"
+"Black Cleric Robe+5"
+"Black Iron Armor+5"
+"Black Knight Armor+5"
+"Black Leather Armor+10"
+"Black Sorcerer Cloak+10"
+"Brass Armor+5"
+"Brigand Armor+10"
+"Catarina Armor+5"
+"Chain Armor+10"
+"Chester`s Long Coat+5"
+"Cleric Armor+10"
+"Crimson Robe+5"
+"Dark Armor+5"
+"Dingy Robe+10"
+"Eastern Armor+5"
+"Elite Cleric Armor+10"
+"Elite Knight Armor+10"
+"Embraced Armor of Favor+5"
+"Giant Armor+5"
+"Gough`s Armor+5"
+"Hard Leather Armor+10"
+"Hollow Soldier Armor+10"
+"Hollow Thief`s Leather Armor+10"
+"Hollow Warrior Armor+10"
+"Holy Robe+10"
+"Knight Armor+10"
+"Leather Armor+10"
+"Lord`s Blade Robe+5"
+"Maiden Robe+10"
+"Mage Smith Coat+10"
+"Painting Guardian Robe+5"
+"Paladin Armor+5"
+"Sage Robe+5"
+"Shadow Garb+5"
+"Silver Knight Armor+5"
+"Sorcerer Cloak+10"
+"Steel Armor+10"
+"Tattered Cloth Robe+10"
+"Wanderer Coat+10"
+"Witch Cloak+5"
+"Xanthous Overcoat+5"
+"Antiquated Dress"
+"Armor of Artorias"
+"Armor of the Glorious"
+"Armor of the Sun"
+"Armor of Thorns"
+"Balder Armor"
+"Black Cleric Robe"
+"Black Iron Armor"
+"Black Knight Armor"
+"Black Leather Armor"
+"Black Sorcerer Cloak"
+"Brass Armor"
+"Brigand Armor"
+"Catarina Armor"
+"Chain Armor"
+"Chester`s Long Coat"
+"Cleric Armor"
+"Crimson Robe"
+"Crystalline Armor"
+"Dark Armor"
+"Dingy Robe"
+"Eastern Armor"
+"Elite Cleric Armor"
+"Elite Knight Armor"
+"Embraced Armor of Favor"
+"Giant Armor"
+"Gold-Hemmed Black Cloak"
+"Golem Armor"
+"Gough`s Armor"
+"Guardian Armor"
+"Hard Leather Armor"
+"Havel`s Armor"
+"Hollow Soldier Armor"
+"Hollow Thief`s Leather Armor"
+"Hollow Warrior Armor"
+"Holy Robe"
+"Knight Armor"
+"Leather Armor"
+"Lord`s Blade Robe"
+"Maiden Robe"
+"Mage Smith Coat"
+"Moonlight Robe"
+"Ornstein`s Armor"
+"Painting Guardian Robe"
+"Paladin Armor"
+"Robe of the Channelers"
+"Robe of the Great Lord"
+"Sage Robe"
+"Shadow Garb"
+"Silver Knight Armor"
+"Smough`s Armor"
+"Sorcerer Cloak"
+"Steel Armor"
+"Stone Armor"
+"Tattered Cloth Robe"
+"Wanderer Coat"
+"Witch Cloak"
+"Xanthous Overcoat"
+"Balder Helm"
+"Big Hat"
+"Black Iron Helm"
+"Black Knight Helm"
+"Black Sorcerer Hat"
+"Bloated Head"
+"Bloated Sorcerer Head"
+"Brass Helm"
+"Brigand Hood"
+"Catarina Helm"
+"Chain Helm"
+"Cleric Helm"
+"Crown of Dusk"
+"Crown of the Dark Sun"
+"Crown of the Great Lord"
+"Crystalline Helm"
+"Dark Mask"
+"Dingy Hood"
+"Eastern Helm"
+"Elite Cleric Helm"
+"Elite Knight Helm"
+"Fang Boar Helm"
+"Gargoyle Helm"
+"Giant Helm"
+"Gold-Hemmed Black Hood"
+"Golem Helm"
+"Gough`s Helm"
+"Guardian Helm"
+"Havel`s Helm"
+"Helm of Artorias"
+"Helm of Favor"
+"Helm of The Wise"
+"Helm of Thorns"
+"Hollow Soldier Helm"
+"Hollow Thief`s Hood"
+"Hollow Warrior Helm"
+"Iron Helm"
+"Knight Helm"
+"Mage Smith Hat"
+"Maiden Hood"
+"Mask of the Child"
+"Mask of the Father"
+"Mask of the Mother"
+"Mask of the Sealer"
+"Mask of Velka"
+"Ornstein`s Helm"
+"Painting Guardian Hood"
+"Paladin Helm"
+"Pharis`s Hat"
+"Porcelain Mask"
+"Priest`s Hat"
+"Royal Helm"
+"Sack"
+"Shadow Mask"
+"Silver Knight Helm"
+"Six-Eyed Helm of the Channelers"
+"Smough`s Helm"
+"Snickering Top Hat"
+"Sorcerer Hat"
+"Standard Helm"
+"Steel Helm"
+"Stone Helm"
+"Sunlight Maggot"
+"Symbol of Avarice"
+"Tattered Cloth Hood"
+"Thief Mask"
+"Wanderer Hood"
+"Witch Hat"
+"Xanthous Crown"
+"Balder Helm+10"
+"Big Hat+5"
+"Black Iron Helm+5"
+"Black Knight Helm+5"
+"Black Sorcerer Hat+10"
+"Brass Helm+5"
+"Brigand Hood+10"
+"Catarina Helm+5"
+"Chain Helm+10"
+"Cleric Helm+10"
+"Dark Mask+5"
+"Dingy Hood+10"
+"Eastern Helm+5"
+"Elite Cleric Helm+10"
+"Elite Knight Helm+10"
+"Fang Boar Helm+5"
+"Gargoyle Helm+5"
+"Giant Helm+5"
+"Helm of Artorias+5"
+"Helm of Favor+5"
+"Helm of Thorns+5"
+"Hollow Soldier Helm+10"
+"Hollow Thief`s Hood+10"
+"Hollow Warrior Helm+10"
+"Iron Helm+10"
+"Knight Helm+10"
+"Mage Smith Hat+10"
+"Maiden Hood+10"
+"Mask of the Sealer+5"
+"Mask of Velka+5"
+"Painting Guardian Hood+5"
+"Paladin Helm+5"
+"Pharis`s Hat+10"
+"Porcelain Mask+5"
+"Priest`s Hat+10"
+"Royal Helm+10"
+"Sack+10"
+"Shadow Mask+5"
+"Silver Knight Helm+5"
+"Snickering Top Hat+5"
+"Sorcerer Hat+10"
+"Standard Helm+10"
+"Steel Helm+10"
+"Tattered Cloth Hood+10"
+"Thief Mask+10"
+"Wanderer Hood+10"
+"Witch Hat+5"
+"Xanthous Crown+5"
+"Antiquated Gloves+5"
+"Balder Gauntlets+10"
+"Black Iron Gauntlets+5"
+"Black Knight Gauntlets+5"
+"Black Leather Gloves+10"
+"Black Manchette+5"
+"Black Sorcerer Gauntlets+10"
+"Brass Gauntlets+5"
+"Brigand Gauntlets+10"
+"Catarina Gauntlets+5"
+"Chester`s Gloves+5"
+"Cleric Gauntlets+10"
+"Crimson Gloves+5"
+"Dark Gauntlets+5"
+"Dingy Gloves+10"
+"Eastern Gauntlets+5"
+"Elite Cleric Gauntlets+5"
+"Elite Knight Gauntlets+10"
+"Gauntlets of Artorias+5"
+"Gauntlets of Favor+5"
+"Gauntlets of Thorns+5"
+"Giant Gauntlets+5"
+"Gough`s Gauntlets+5"
+"Hard Leather Gauntlets+10"
+"Iron Bracelet+10"
+"Knight Gauntlets+10"
+"Leather Gauntlets+10"
+"Leather Gloves+10"
+"Lord`s Blade Gloves+5"
+"Mage Smith Gauntlets+10"
+"Maiden Gloves+10"
+"Painting Guardian Gloves+5"
+"Paladin Gauntlets+5"
+"Shadow Gauntlets+5"
+"Silver Knight Gauntlets+5"
+"Sorcerer Gauntlets+10"
+"Steel Gauntlets+10"
+"Tattered Cloth Manchette+10"
+"Traveling Gloves+10"
+"Traveling Gloves+10 (Big Hat Set)"
+"Wanderer Manchette+10"
+"Witch Gloves+5"
+"Xanthous Gloves+5"
+"Antiquated Gloves"
+"Balder Gauntlets"
+"Black Iron Gauntlets"
+"Black Knight Gauntlets"
+"Black Leather Gloves"
+"Black Manchette"
+"Black Sorcerer Gauntlets"
+"Bracelet of the Great Lord"
+"Brass Gauntlets"
+"Brigand Gauntlets"
+"Catarina Gauntlets"
+"Chester`s Gloves"
+"Cleric Gauntlets"
+"Crimson Gloves"
+"Crystalline Gauntlets"
+"Dark Gauntlets"
+"Dingy Gloves"
+"Eastern Gauntlets"
+"Elite Cleric Gauntlets"
+"Elite Knight Gauntlets"
+"Gauntlets of Artorias"
+"Gauntlets of Favor"
+"Gauntlets of the Channelers"
+"Gauntlets of the Vanquisher"
+"Gauntlets of Thorns"
+"Giant Gauntlets"
+"Gold-Hemmed Black Gloves"
+"Golem Gauntlets"
+"Gough`s Gauntlets"
+"Guardian Gauntlets"
+"Hard Leather Gauntlets"
+"Havel`s Gauntlets"
+"Iron Bracelet"
+"Knight Gauntlets"
+"Leather Gauntlets"
+"Leather Gloves"
+"Lord`s Blade Gloves"
+"Mage Smith Gauntlets"
+"Maiden Gloves"
+"Moonlight Gloves"
+"Ornstein`s Gauntlets"
+"Painting Guardian Gloves"
+"Paladin Gauntlets"
+"Shadow Gauntlets"
+"Silver Knight Gauntlets"
+"Smough`s Gauntlets"
+"Sorcerer Gauntlets"
+"Steel Gauntlets"
+"Stone Gauntlets"
+"Tattered Cloth Manchette"
+"Traveling Gloves"
+"Traveling Gloves (Big Hat Set)"
+"Wanderer Manchette"
+"Witch Gloves"
+"Xanthous Gloves"
+"Anklet of the Great Lord"
+"Antiquated Skirt"
+"Balder Leggings"
+"Black Iron Leggings"
+"Black Knight Leggings"
+"Black Leather Boots"
+"Black Sorcerer Boots"
+"Black Tights"
+"Blood-Stained Skirt"
+"Boots of the Explorer"
+"Brass Leggings"
+"Brigand Trousers"
+"Catarina Leggings"
+"Chain Leggings"
+"Chester`s Trousers"
+"Cleric Leggings"
+"Crimson Waistcloth"
+"Crystalline Leggings"
+"Dark Leggings"
+"Eastern Leggings"
+"Elite Cleric Leggings"
+"Elite Knight Leggings"
+"Giant Leggings"
+"Gold-Hemmed Black Skirt"
+"Golem Leggings"
+"Gough`s Leggings"
+"Guardian Leggings"
+"Hard Leather Boots"
+"Havel`s Leggings"
+"Heavy Boots"
+"Hollow Soldier Waistcloth"
+"Hollow Thief`s Tights"
+"Hollow Warrior Waistcloth"
+"Holy Trousers"
+"Iron Leggings"
+"Knight Leggings"
+"Leather Boots"
+"Leggings of Artorias"
+"Leggings of Favor"
+"Leggings of Thorns"
+"Lord`s Blade Waistcloth"
+"Mage Smith Boots"
+"Maiden Skirt"
+"Moonlight Waistcloth"
+"Ornstein`s Leggings"
+"Painting Guardian Waistcloth"
+"Paladin Leggings"
+"Shadow Leggings"
+"Silver Knight Leggings"
+"Smough`s Leggings"
+"Sorcerer Boots"
+"Steel Leggings"
+"Stone Leggings"
+"Traveling Boots"
+"Waistcloth of the Channelers"
+"Wanderer Boots"
+"Witch Skirt"
+"Xanthous Waistcloth"
+"Antiquated Skirt+5"
+"Balder Leggings+10"
+"Black Iron Leggings+10"
+"Black Knight Leggings+5"
+"Black Leather Boots+10"
+"Black Sorcerer Boots+10"
+"Black Tights+5"
+"Blood-Stained Skirt+10"
+"Brass Leggings+5"
+"Brigand Trousers+10"
+"Catarina Leggings+5"
+"Chain Leggings+10"
+"Chester`s Trousers+5"
+"Cleric Leggings+10"
+"Crimson Waistcloth+5"
+"Dark Leggings+5"
+"Eastern Leggings+5"
+"Elite Cleric Leggings+10"
+"Elite Knight Leggings+10"
+"Giant Leggings+5"
+"Gough`s Leggings+5"
+"Hard Leather Boots+10"
+"Heavy Boots+10"
+"Hollow Soldier Waistcloth+10"
+"Hollow Thief`s Tights+10"
+"Hollow Warrior Waistcloth+10"
+"Holy Trousers+10"
+"Iron Leggings+10"
+"Knight Leggings+10"
+"Leather Boots+10"
+"Leggings of Artorias+5"
+"Leggings of Favor+5"
+"Leggings of Thorns+5"
+"Lord`s Blade Waistcloth+5"
+"Mage Smith Boots+10"
+"Maiden Skirt+10"
+"Painting Guardian Waistcloth+5"
+"Paladin Leggings+5"
+"Shadow Leggings+5"
+"Silver Knight Leggings+5"
+"Sorcerer Boots+10"
+"Steel Leggings+10"
+"Traveling Boots+10"
+"Wanderer Boots+10"
+"Witch Skirt+5"
+"Xanthous Waistcloth+5"
+;
+
+param: 				SLOT 	Phys 	Thr 	Sls 	Pierce 	Mag 	Fire 	Lighting 	Bleed 	Poison 	Curse 	Poise 	Weight :=
+"Antiquated Dress+5" "chest" 21.7 21.7 21.7 21.7 51.1 9.3 29.5 17.8 17.8 33 0 1
+"Armor of Artorias+5" "chest" 65.1 58.6 74.9 68.4 34.1 71.3 34.1 27.9 27.9 25.4 15 10.5
+"Armor of the Sun+10" "chest" 84.7 84.7 84.7 83 50.8 50.8 46 32.2 22.4 14 16 9
+"Armor of Thorns+5" "chest" 69.8 66.3 76 69.8 43.4 51.1 31 33 22.9 0 16 10.5
+"Balder Armor+10" "chest" 89.5 87.7 109.2 86 36.3 43.6 36.3 28 22.4 0 16 10.9
+"Black Cleric Robe+5" "chest" 35.6 38.9 35.6 35.6 44.9 38.8 29.5 27.9 27.9 16.5 0 3.9
+"Black Iron Armor+5" "chest" 105.4 100.1 121.2 105.4 46.5 79 32.6 54.6 31.7 16.5 31 15.6
+"Black Knight Armor+5" "chest" 88.4 83.9 99.8 86.6 44.9 74.4 26.4 40.6 19 0 21 13
+"Black Leather Armor+10" "chest" 55.7 59.6 55.7 55.7 48.4 33.9 38.7 32.2 43.4 0 0 3.1
+"Black Sorcerer Cloak+10" "chest" 31.5 32.4 34.3 31.5 67.8 50.8 50.8 43.4 43.4 5.6 0 1.8
+"Brass Armor+5" "chest" 74.4 71.4 84.1 74.4 41.9 38.8 38.8 30.5 25.4 14 16 10.9
+"Brigand Armor+10" "chest" 55.7 61.2 55.7 50.1 48.4 31.5 41.1 28 28 0 0 3.1
+"Catarina Armor+5" "chest" 88.4 87.5 101.6 88.4 48.1 57.4 29.5 43.2 30.5 0 21 11.7
+"Chain Armor+10" "chest" 72.6 72.6 87.1 70.4 50.8 38.7 16.9 28 16.8 0 9 6
+"Chester`s Long Coat+5" "chest" 41.9 56.5 41.9 41.9 46.5 32.6 43.4 55.9 40.6 0 0 4.5
+"Cleric Armor+10" "chest" 96.8 96.8 111.3 96.8 55.7 50.8 36.3 32.2 22.4 0 20 12.5
+"Crimson Robe+5" "chest" 49.6 54.6 49.6 49.6 51.1 29.5 37.2 26.7 26.7 26.7 0 3.9
+"Dark Armor+5" "chest" 69.8 69.8 76.7 65.6 46.5 48.1 41.9 38.1 26.7 0 16 9.8
+"Dingy Robe+10" "chest" 55.7 69.6 55.7 55.7 79.9 46 60.5 49 36.4 49 0 3
+"Eastern Armor+5" "chest" 69.8 66.3 86.5 67.7 23.3 51.1 27.9 48.3 35.6 0 20 12.3
+"Elite Cleric Armor+10" "chest" 99.2 99.2 113.1 99.2 55.7 50.8 36.3 32.2 22.4 0 23 13.3
+"Elite Knight Armor+10" "chest" 94.4 91.5 109.5 94.4 41.1 43.6 36.3 32.2 22.4 0 20 11.7
+"Embraced Armor of Favor+5" "chest" 74.4 70.7 86.3 74.4 35.6 46.5 29.5 35.6 27.9 27.9 20 11.7
+"Giant Armor+5" "chest" 111.6 102.7 126.1 111.6 49.6 74.4 51.1 40.6 24.1 0 35 16.4
+"Gough`s Armor+5" "chest" 77.5 77.5 81.4 73.6 43.4 63.6 32.6 26.7 15.2 0 19 13
+"Hard Leather Armor+10" "chest" 62.9 66.7 62.9 62.9 48.4 31.5 55.7 32.2 28 0 0 5.9
+"Hollow Soldier Armor+10" "chest" 62.9 62.9 69.8 55.4 38.7 41.1 24.2 25.2 18.2 0 12 7.8
+"Hollow Thief`s Leather Armor+10" "chest" 50.8 55.4 50.8 52.9 48.4 31.5 43.6 21 40.6 0 0 2.8
+"Hollow Warrior Armor+10" "chest" 58.1 56.3 59.8 55.2 38.7 29 41.1 18.2 18.2 0 8 6.6
+"Holy Robe+10" "chest" 53.2 62.8 53.2 53.2 55.7 33.9 46 33.6 28 0 0 4
+"Knight Armor+10" "chest" 89.5 85.1 103.9 87.7 38.7 43.6 31.5 32.2 22.4 0 20 10.9
+"Leather Armor+10" "chest" 58.1 61.6 58.1 58.1 48.4 29 55.7 29.4 28 0 0 4.7
+"Lord`s Blade Robe+5" "chest" 52.7 52.7 55.3 58 40.3 49.6 31 35.6 62.2 31.7 8 6.4
+"Maiden Robe+10" "chest" 46 53.8 46 46 53.2 31.5 41.1 32.2 25.2 11.2 0 2
+"Mage Smith Coat+10" "chest" 48.4 52.3 50.3 48.4 65.3 31.5 41.1 22.4 16.8 0 0 2.3
+"Painting Guardian Robe+5" "chest" 14 16.7 14 14 52.7 44.9 32.6 40.6 99.1 20.3 0 1.6
+"Paladin Armor+5" "chest" 91.5 86.9 105.2 91.5 48.1 57.4 29.5 43.2 30.5 72.4 20 12.9
+"Sage Robe+5" "chest" 63.6 68.6 66.1 63.6 43.4 44.9 54.3 62.2 62.2 0 0 4
+"Shadow Garb+5" "chest" 35.6 39.2 35.6 35.6 18.6 24.8 26.4 49.5 59.7 0 0 2.3
+"Silver Knight Armor+5" "chest" 80.6 75.8 92.7 79 40.3 44.9 52.7 30.5 15.2 2.5 19 12
+"Sorcerer Cloak+10" "chest" 48.4 52.3 50.3 48.4 65.3 31.5 41.1 22.4 16.8 0 0 2.3
+"Steel Armor+10" "chest" 101.6 95.5 116.9 101.6 53.2 50.8 31.5 32.2 22.4 0 23 14
+"Tattered Cloth Robe+10" "chest" 50.8 56.4 50.8 50.8 55.7 72.6 41.1 32.2 82.6 2.8 0 2.7
+"Wanderer Coat+10" "chest" 55.7 59.6 59.6 55.7 50.8 62.9 55.7 29.4 29.4 0 0 3.5
+"Witch Cloak+5" "chest" 51.1 56.8 51.1 51.1 66.7 31 40.3 45.7 45.7 15.2 0 4
+"Xanthous Overcoat+5" "chest" 49.6 55.6 49.6 45.1 57.4 10.8 35.6 27.9 36.8 0 0 3.9
+"Antiquated Dress" "chest" 14 14 14 14 33 6 19 14 14 26 0 1
+"Armor of Artorias" "chest" 42 37.8 48.3 44.1 22 46 22 22 22 20 15 10.5
+"Armor of the Glorious" "chest" 47 44.6 54.1 47 31 34 25 28 19 24 20 13.3
+"Armor of the Sun" "chest" 35 35 35 34.3 21 21 19 23 16 10 16 9
+"Armor of Thorns" "chest" 45 42.8 49.1 45 28 33 20 26 18 0 16 10.5
+"Balder Armor" "chest" 37 36.3 45.1 35.5 15 18 15 20 16 0 16 10.9
+"Black Cleric Robe" "chest" 23 25.1 23 23 29 25 19 22 22 13 0 3.9
+"Black Iron Armor" "chest" 68 64.6 78.2 68 30 51 21 43 25 13 31 15.6
+"Black Knight Armor" "chest" 57 54.2 64.4 55.9 29 48 17 32 15 0 21 13
+"Black Leather Armor" "chest" 23 24.6 23 23 20 14 16 23 31 0 0 3.1
+"Black Sorcerer Cloak" "chest" 13 13.4 14.2 13 28 21 21 31 31 4 0 1.8
+"Brass Armor" "chest" 48 46.1 54.2 48 27 25 25 24 20 11 16 10.9
+"Brigand Armor" "chest" 23 25.3 23 20.7 20 13 17 20 20 0 0 3.1
+"Catarina Armor" "chest" 57 56.4 65.5 57 31 37 19 34 24 0 21 11.7
+"Chain Armor" "chest" 30 30 36 29.1 21 16 7 20 12 0 9 6
+"Chester`s Long Coat" "chest" 27 36.5 27 27 30 21 28 44 32 0 0 4.5
+"Cleric Armor" "chest" 40 40 46 40 23 21 15 23 16 0 20 12.5
+"Crimson Robe" "chest" 32 35.2 32 32 33 19 24 21 21 21 0 3.9
+"Crystalline Armor" "chest" 59 50.1 67.9 59 21 15 7 15 0 0 16 10.9
+"Dark Armor" "chest" 45 45 49.5 42.3 30 31 27 30 21 0 16 9.8
+"Dingy Robe" "chest" 23 28.8 23 23 33 19 25 35 26 35 0 3
+"Eastern Armor" "chest" 45 42.8 55.8 43.6 15 33 18 38 28 0 20 12.3
+"Elite Cleric Armor" "chest" 41 41 46.7 41 23 21 15 23 16 0 23 13.3
+"Elite Knight Armor" "chest" 39 37.8 45.2 39 17 18 15 23 16 0 20 11.7
+"Embraced Armor of Favor" "chest" 48 45.6 55.7 48 23 30 19 28 22 22 20 11.7
+"Giant Armor" "chest" 72 66.2 81.4 72 32 48 33 32 19 0 35 16.4
+"Gold-Hemmed Black Cloak" "chest" 31 33.2 31 31 38 58 21 40 94 0 0 3.5
+"Golem Armor" "chest" 91 83.7 106.5 91 45 41 17 45 31 0 33 16.4
+"Gough`s Armor" "chest" 50 50 52.5 47.5 28 41 21 21 12 0 19 13
+"Guardian Armor" "chest" 86 80.8 98.9 86 50 42 50 42 14 0 37 17
+"Hard Leather Armor" "chest" 26 27.6 26 26 20 13 23 23 20 0 0 5.9
+"Havel`s Armor" "chest" 92 78.2 105.8 92 56 54 49 45 11 22 47 19.5
+"Hollow Soldier Armor" "chest" 26 26 28.9 22.9 16 17 10 18 13 0 12 7.8
+"Hollow Thief`s Leather Armor" "chest" 21 22.9 21 21.8 20 13 18 15 29 0 0 2.8
+"Hollow Warrior Armor" "chest" 24 23.3 24.7 22.8 16 12 17 13 13 0 8 6.6
+"Holy Robe" "chest" 22 26 22 22 23 14 19 24 20 0 0 4
+"Knight Armor" "chest" 37 36.1 42.9 36.3 16 18 13 23 16 0 20 10.9
+"Leather Armor" "chest" 24 25.4 24 24 20 12 23 21 20 0 0 4.7
+"Lord`s Blade Robe" "chest" 34 34 35.7 37.4 26 32 20 28 49 25 8 6.4
+"Maiden Robe" "chest" 19 22.2 19 19 22 13 17 23 18 8 0 2
+"Mage Smith Coat" "chest" 20 21.6 20.8 20 27 13 17 16 12 0 0 2.3
+"Moonlight Robe" "chest" 20 20 20 20 31 17 17 23 23 31 0 3.1
+"Ornstein`s Armor" "chest" 70 66.5 79.1 70 36 46 40 38 18 18 19 12
+"Painting Guardian Robe" "chest" 9 10.8 9 9 34 29 21 32 78 16 0 1.6
+"Paladin Armor" "chest" 59 56.1 67.9 59 31 37 19 34 24 57 20 12.9
+"Robe of the Channelers" "chest" 53 50.9 60.4 53 45 45 35 38 33 0 12 10.1
+"Robe of the Great Lord" "chest" 32 34.6 36.8 29.4 32 41 41 30 15 40 0 6
+"Sage Robe" "chest" 41 44.3 42.6 41 28 29 35 49 49 0 0 4
+"Shadow Garb" "chest" 23 25.3 23 23 12 16 17 39 47 0 0 2.3
+"Silver Knight Armor" "chest" 52 48.9 59.8 51 26 29 24 24 12 2 19 12
+"Smough`s Armor" "chest" 106 92.2 121.9 106 52 66 59 54 28 9 35 17.6
+"Sorcerer Cloak" "chest" 20 21.6 20.8 20 27 13 17 16 12 0 0 2.3
+"Steel Armor" "chest" 42 39.5 48.3 42 22 21 13 23 16 0 23 14
+"Stone Armor" "chest" 91 85.5 104.7 91 45 54 54 45 16 0 39 17.6
+"Tattered Cloth Robe" "chest" 21 23.3 21 21 23 30 17 23 59 2 0 2.7
+"Wanderer Coat" "chest" 23 24.6 24.6 23 21 26 23 21 21 0 0 3.5
+"Witch Cloak" "chest" 33 36.6 33 33 43 20 26 36 36 12 0 4
+"Xanthous Overcoat" "chest" 32 35.8 32 29.1 37 7 23 22 29 0 0 3.9
+"Balder Helm" "head" 14 13.7 17.1 13.4 6 8 6 8 6 0 6 4.2
+"Big Hat" "head" 14 15.4 15.4 12.6 43 7 17 13 13 0 0 3
+"Black Iron Helm" "head" 27 25.7 31.1 27 11 19 8 17 10 5 12 6
+"Black Knight Helm" "head" 21 19.9 23.7 20.6 11 18 6 12 6 0 8 5
+"Black Sorcerer Hat" "head" 5 5.1 5.5 5 11 8 8 12 12 2 0 0.7
+"Bloated Head" "head" 17 17 17 17 17 9 11 16 32 10 0 2.5
+"Bloated Sorcerer Head" "head" 14 14 14 14 22 9 13 8 38 15 0 2.2
+"Brass Helm" "head" 22 21.1 24.9 22 12 11 11 11 9 6 8 5.1
+"Brigand Hood" "head" 9 9.9 9 8.1 8 5 6 8 8 0 0 1.2
+"Catarina Helm" "head" 22 21.8 25.3 22 12 13 7 13 9 0 8 4.5
+"Chain Helm" "head" 12 12 14 11 10 8 3 10 6 0 5 3
+"Cleric Helm" "head" 15 15 17.3 15 9 8 6 9 6 0 8 4.8
+"Crown of Dusk" "head" 5 5 5 5 11 2 6 5 5 20 0 0.4
+"Crown of the Dark Sun" "head" 12 12 12 12 12 6 6 9 9 12 0 3
+"Crown of the Great Lord" "head" 16 17.3 18.4 14.7 16 21 21 15 8 20 0 3
+"Crystalline Helm" "head" 25 21.3 28.8 25 8 6 2 6 0 0 6 4.2
+"Dark Mask" "head" 18 18 19.8 16.9 12 12 10 12 8 0 6 3.8
+"Dingy Hood" "head" 6 7.5 6 6 8 5 6 9 7 9 0 0.8
+"Eastern Helm" "head" 17 16.2 21.1 16.5 6 12 7 15 11 0 8 4.7
+"Elite Cleric Helm" "head" 16 16 18.2 16 9 8 6 9 6 0 9 5.1
+"Elite Knight Helm" "head" 15 14.6 17.4 15 7 8 6 9 6 0 8 4.5
+"Fang Boar Helm" "head" 26 23.4 31.2 26 5 4 4 13 8 0 12 8
+"Gargoyle Helm" "head" 15 12.3 19.1 13.7 15 15 15 22 19 0 8 3.5
+"Giant Helm" "head" 27 24.8 30.5 27 13 19 13 13 8 0 14 6.3
+"Gold-Hemmed Black Hood" "head" 11 11.8 11 11 15 22 8 16 36 0 0 1.4
+"Golem Helm" "head" 38.8 38.8 40.7 36.8 21.7 32.5 17 14 7.6 0 9 6.5
+"Gough`s Helm" "head" 25 25 26.2 23.8 14 21 11 11 6 0 9 6.5
+"Guardian Helm" "head" 41 38.5 47.1 41 23 19 23 17 6 0 15 7.2
+"Havel`s Helm" "head" 36 30.6 41.4 36 22 22 18 18 4 9 18 7.5
+"Helm of Artorias" "head" 18 16.2 20.7 18.9 9 19 9 9 9 9 6 4.2
+"Helm of Favor" "head" 18 17.1 20.9 18 10 11 7 11 8 8 8 4.5
+"Helm of The Wise" "head" 18 17.1 20.7 18 12 13 10 11 7 18 8 5.1
+"Helm of Thorns" "head" 17 16.2 18.5 17 10 12 8 10 7 0 6 4.1
+"Hollow Soldier Helm" "head" 10 10 11.1 8.8 6 6 4 7 5 0 5 3
+"Hollow Thief`s Hood" "head" 8 8.7 8 8.3 8 5 7 6 11 0 0 1.1
+"Hollow Warrior Helm" "head" 10 9.7 10.3 9.5 6 5 6 5 5 0 3 2.6
+"Iron Helm" "head" 14 14 14 13.7 10 10 9 12 8 2 8 4.5
+"Knight Helm" "head" 14 13.3 16.2 13.7 6 8 5 9 6 0 8 4.2
+"Mage Smith Hat" "head" 8 8.6 8.3 8 10 5 6 6 5 0 0 0.9
+"Maiden Hood" "head" 7 8.2 7 7 8 5 6 9 7 3 0 0.8
+"Mask of the Child" "head" 6 6 6 6 10 8 10 6 0 0 0 1.2
+"Mask of the Father" "head" 6 6 6 6 10 6 8 6 0 0 0 1.2
+"Mask of the Mother" "head" 6 6 6 6 12 6 8 10 0 0 0 1.2
+"Mask of the Sealer" "head" 12 13.2 12 12 12 7 9 8 8 8 0 1.5
+"Mask of Velka" "head" 12 13.1 12 12 12 10 7 9 9 20 0 2.5
+"Ornstein`s Helm" "head" 32 30.4 36.2 32 16 22 18 18 8 8 9 5.5
+"Painting Guardian Hood" "head" 3 3.6 3 3 31 11 8 12 30 6 0 0.6
+"Paladin Helm" "head" 22 20.9 25.3 22 12 13 7 13 9 22 8 5
+"Pharis`s Hat" "head" 7 7.4 7 7 5 7 6 6 5 0 0 1.2
+"Porcelain Mask" "head" 13 13 13.7 14.3 10 12 8 11 19 11 3 2.5
+"Priest`s Hat" "head" 8 9.4 8 8 9 5 7 9 8 0 0 1.2
+"Royal Helm" "head" 16 13.9 16 16 10 10 6 16 12 0 8 4.5
+"Sack" "head" 6 10 6 5 6 8 4 12 10 0 0 0.6
+"Shadow Mask" "head" 9 9.9 9 9 5 6 6 15 18 0 0 0.9
+"Silver Knight Helm" "head" 21 19.7 24.2 20.6 10 11 14 9 5 1 8 4.8
+"Six-Eyed Helm of the Channelers" "head" 20 19.2 22.8 20 18 17 13 15 13 0 5 3.9
+"Smough`s Helm" "head" 40 34.8 46 40 19 26 21 21 12 5 14 6.8
+"Snickering Top Hat" "head" 12 16.2 12 12 13 9 12 19 14 0 0 2
+"Sorcerer Hat" "head" 8 8.6 8.3 8 10 5 6 6 5 0 0 0.9
+"Standard Helm" "head" 14 8 16 14 8 8 3 9 8 0 5 3.5
+"Steel Helm" "head" 16 15 18.4 16 8 8 5 9 6 0 9 5.4
+"Stone Helm" "head" 35 32.9 40.3 35 17 21 21 17 6 0 15 6.8
+"Sunlight Maggot" "head" 6 6 6 6 5 24 13 0 0 0 0 1.4
+"Symbol of Avarice" "head" 21 10.9 21 21 8 2 2 10 0 0 15 10
+"Tattered Cloth Hood" "head" 8 8.9 8 8 9 12 6 9 23 1 0 1.1
+"Thief Mask" "head" 9 9.6 9 9 8 5 6 9 12 0 0 1.2
+"Wanderer Hood" "head" 9 9.6 9.6 9 8 10 9 8 8 0 0 1.4
+"Witch Hat" "head" 9 10 9 9 12 6 7 10 10 11 0 1.1
+"Xanthous Crown" "head" 18 27.7 18 15.3 15 3 8 8 11 35 0 5
+"Balder Helm+10" "head" 33.9 33.2 41.3 32.5 14.5 19.4 14.5 11.2 8.4 0 6 4.2
+"Big Hat+5" "head" 21.7 23.9 23.9 19.5 66.7 10.8 26.4 16.5 16.5 0 0 3
+"Black Iron Helm+5" "head" 41.9 39.8 48.1 41.9 17.1 29.5 12.4 21.6 12.7 6.4 12 6
+"Black Knight Helm+5" "head" 32.6 30.9 36.8 31.9 17.1 27.9 9.3 15.2 7.6 0 8 5
+"Black Sorcerer Hat+10" "head" 12.1 12.5 13.2 12.1 26.6 19.4 19.4 16.8 16.8 2.8 0 0.7
+"Brass Helm+5" "head" 34.1 32.7 38.5 34.1 18.6 17.1 17.1 14 11.4 7.6 8 5.1
+"Brigand Hood+10" "head" 21.8 24 21.8 19.6 19.4 12.1 14.5 11.2 11.2 0 0 1.2
+"Catarina Helm+5" "head" 34.1 33.8 39.2 34.1 18.6 20.2 10.8 16.5 11.4 0 8 4.5
+"Chain Helm+10" "head" 29 29 34.8 28.2 24.2 19.4 7.3 14 8.4 0 5 3
+"Cleric Helm+10" "head" 36.3 36.3 41.7 36.3 21.8 19.4 14.5 12.6 8.4 0 8 4.8
+"Dark Mask+5" "head" 27.9 27.9 30.7 26.2 18.6 18.6 15.5 15.2 10.2 0 6 3.8
+"Dingy Hood+10" "head" 14.5 18.2 14.5 14.5 19.4 12.1 14.5 12.6 9.8 12.6 0 0.8
+"Eastern Helm+5" "head" 26.4 25 32.7 25.6 9.3 18.6 10.8 19.1 14 0 8 4.7
+"Elite Cleric Helm+10" "head" 38.7 38.7 44.1 38.7 21.8 19.4 14.5 13.6 8.4 0 9 5.1
+"Elite Knight Helm+10" "head" 36.3 35.2 42.1 36.3 16.9 19.4 14.5 12.6 8.4 0 8 4.5
+"Fang Boar Helm+5" "head" 40.3 36.3 48.4 40.3 7.8 6.2 6.2 16.5 10.2 0 12 8
+"Gargoyle Helm+5" "head" 23.3 19.1 29.5 21.2 23.3 23.3 23.3 27.9 24.1 0 8 3.5
+"Giant Helm+5" "head" 41.9 38.5 47.3 41.9 20.2 29.5 20.2 16.5 10.2 0 14 6.3
+"Helm of Artorias+5" "head" 27.9 25.1 32.1 29.3 14 29.5 14 11.4 11.4 11.4 6 4.2
+"Helm of Favor+5" "head" 27.9 26.5 32.4 27.9 15.5 17.1 10.8 14 10.2 10.2 8 4.5
+"Helm of Thorns+5" "head" 26.4 25 28.7 26.4 15.5 18.6 12.4 12.7 8.9 0 6 4.1
+"Hollow Soldier Helm+10" "head" 24.2 24.2 26.9 21.3 14.5 14.5 9.7 9.8 7 0 5 3
+"Hollow Thief`s Hood+10" "head" 19.4 21.1 19.4 20.1 19.4 12.1 16.9 8.4 15.4 0 0 1.1
+"Hollow Warrior Helm+10" "head" 24.2 23.5 24.9 23 14.5 12.1 14.5 7 7 0 3 2.6
+"Iron Helm+10" "head" 33.9 33.9 33.9 33.2 24.2 24.2 21.8 16.8 11.2 2.8 8 4.5
+"Knight Helm+10" "head" 33.9 32.2 39.3 33.2 14.5 19.4 12.1 12.6 8.4 0 8 4.2
+"Mage Smith Hat+10" "head" 19.4 20.9 20.1 19.4 24.2 12.1 14.5 8.4 7 0 0 0.9
+"Maiden Hood+10" "head" 16.9 19.8 16.9 16.9 19.4 12.1 14.5 12.6 9.8 4.2 0 0.8
+"Mask of the Sealer+5" "head" 18.6 20.5 18.6 18.6 18.6 10.8 14 10.2 10.2 10.2 0 1.5
+"Mask of Velka+5" "head" 18.6 20.3 18.6 18.6 18.6 15.5 10.8 11.4 11.4 25.4 0 2.5
+"Painting Guardian Hood+5" "head" 4.6 5.6 4.6 4.6 48.1 17.1 12.4 15.2 38.1 7.6 0 0.6
+"Paladin Helm+5" "head" 34.1 32.4 39.2 34.1 18.6 20.2 10.8 16.5 11.4 27.9 8 5
+"Pharis`s Hat+10" "head" 16.9 18 16.9 16.9 12.1 16.9 14.5 8.4 7 0 0 1.2
+"Porcelain Mask+5" "head" 20.2 20.2 21.2 22.2 15.5 18.6 12.4 14 24.1 14 3 2.5
+"Priest`s Hat+10" "head" 19.4 22.8 19.4 19.4 21.8 12.1 16.9 12.6 11.2 0 0 1.2
+"Royal Helm+10" "head" 38.7 33.7 38.7 38.7 24.2 24.2 14.5 22.4 16.8 0 8 4.5
+"Sack+10" "head" 14.5 24.2 14.5 12.1 14.5 19.4 9.7 16.8 14 0 0 0.6
+"Shadow Mask+5" "head" 14 15.3 14 14 7.8 9.3 9.3 19.1 22.9 0 0 0.9
+"Silver Knight Helm+5" "head" 32.6 30.6 37.4 31.9 15.5 17.1 21.7 11.4 6.3 1.3 8 4.8
+"Snickering Top Hat+5" "head" 18.6 25.1 18.6 18.6 20.2 14 18.6 24.1 17.8 0 0 2
+"Sorcerer Hat+10" "head" 19.4 20.9 20.1 19.4 24.2 12.1 14.5 8.4 7 0 0 0.9
+"Standard Helm+10" "head" 33.9 19.3 38.6 33.9 19.4 19.4 7.3 12.6 11.2 0 5 3.5
+"Steel Helm+10" "head" 38.7 36.4 44.5 38.7 19.4 19.4 12.1 12.6 8.4 0 9 5.4
+"Tattered Cloth Hood+10" "head" 19.4 21.5 19.4 19.4 21.8 29 14.5 12.6 32.2 1.4 0 1.1
+"Thief Mask+10" "head" 21.8 23.3 21.8 21.8 19.4 12.1 14.5 12.6 16.8 0 0 1.2
+"Wanderer Hood+10" "head" 21.8 23.3 23.3 21.8 19.4 24.2 21.8 11.2 11.2 0 0 1.4
+"Witch Hat+5" "head" 14 15.5 14 14 18.6 9.3 10.8 12.7 12.7 14 0 1.1
+"Xanthous Crown+5" "head" 27.9 43 27.9 23.7 23.3 4.6 12.4 10.2 14 44.4 0 5
+"Antiquated Gloves+5" "arms" 12.4 12.4 12.4 12.4 29.5 4.6 17.1 10.2 10.2 20.3 0 0.6
+"Balder Gauntlets+10" "arms" 41.1 40.3 50.2 39.5 16.9 19.4 12.1 8.4 7 0 5 3.5
+"Black Iron Gauntlets+5" "arms" 62 58.9 71.3 62 26.4 46.5 20.2 31.7 17.8 10.2 18 9.2
+"Black Knight Gauntlets+5" "arms" 40.3 38.3 45.5 39.5 21.7 35.6 12.4 19.1 10.2 0 10 6
+"Black Leather Gloves+10" "arms" 31.5 33.7 31.5 31.5 29 19.4 21.8 19.6 25.2 0 0 1.8
+"Black Manchette+5" "arms" 17.1 18.6 17.1 17.1 21.7 17.1 14 12.7 12.7 6.4 0 1.8
+"Black Sorcerer Gauntlets+10" "arms" 19.4 19.9 21.1 19.4 41.1 29 29 25.2 25.2 2.8 0 1
+"Brass Gauntlets+5" "arms" 37.2 35.7 42 37.2 21.7 18.6 18.6 15.2 12.7 7.6 8 5.4
+"Brigand Gauntlets+10" "arms" 33.9 37.3 33.9 30.5 29 19.4 24.2 16.8 16.8 0 0 1.8
+"Catarina Gauntlets+5" "arms" 52.7 52.2 60.6 52.7 27.9 32.6 18.6 26.7 16.5 0 13 6.9
+"Chester`s Gloves+5" "arms" 15.5 20.9 15.5 15.5 15.5 10.8 15.5 19.1 14 0 0 1.5
+"Cleric Gauntlets+10" "arms" 58.1 58.1 66.8 58.1 31.5 29 21.8 19.6 12.6 0 12 7.4
+"Crimson Gloves+5" "arms" 10.8 11.9 10.8 10.8 10.8 6.2 7.8 5.1 5.1 5.1 0 0.8
+"Dark Gauntlets+5" "arms" 41.9 41.9 46 39.3 27.9 27.9 23.3 22.9 15.2 0 9 5.8
+"Dingy Gloves+10" "arms" 21.8 27.2 21.8 21.8 31.5 19.4 24.2 19.6 14 19.6 0 1.2
+"Eastern Gauntlets+5" "arms" 9.3 8.8 11.5 9 1.6 6.2 3.1 6.3 5.1 0 2 1.5
+"Elite Cleric Gauntlets+5" "arms" 58.1 58.1 66.2 58.1 31.5 29 21.8 19.6 12.6 0 14 7.8
+"Elite Knight Gauntlets+10" "arms" 43.6 42.3 50.5 43.6 16.9 19.4 12.1 9.8 7 0 6 3.7
+"Gauntlets of Artorias+5" "arms" 31 27.9 35.6 32.6 15.5 32.6 15.5 12.7 12.7 11.4 7 4.6
+"Gauntlets of Favor+5" "arms" 32.6 30.9 37.8 32.6 15.5 18.6 12.4 14 12.7 12.7 8 5
+"Gauntlets of Thorns+5" "arms" 40.3 38.3 43.9 40.3 24.8 27.9 18.6 20.3 12.7 0 9 6.2
+"Giant Gauntlets+5" "arms" 63.6 58.5 71.8 63.6 29.5 44.9 29.5 24.1 14 0 21 9.7
+"Gough`s Gauntlets+5" "arms" 41.9 41.9 43.9 39.8 23.3 34.1 17.1 14 7.6 0 12 7
+"Hard Leather Gauntlets+10" "arms" 31.5 33.3 31.5 31.5 29 16.9 31.5 19.6 16.8 0 0 3.5
+"Iron Bracelet+10" "arms" 41.1 41.1 41.1 40.3 24.2 24.2 21.8 15.4 9.8 2.8 7 4.3
+"Knight Gauntlets+10" "arms" 41.1 39.1 47.7 40.3 16.9 19.4 9.7 11.2 7 0 6 3.5
+"Leather Gauntlets+10" "arms" 29 29 34.8 28.2 24.2 19.4 9.7 16.8 9.8 0 5 3.6
+"Leather Gloves+10" "arms" 29 30.8 29 29 29 14.5 31.5 18.2 16.8 0 0 2.8
+"Lord`s Blade Gloves+5" "arms" 23.3 23.3 24.4 25.6 17.1 21.7 14 15.2 27.9 14 3 2.8
+"Mage Smith Gauntlets+10" "arms" 29 31.4 30.2 29 38.7 19.4 24.2 12.6 9.8 0 0 1.4
+"Maiden Gloves+10" "arms" 26.6 31.1 26.6 26.6 31.5 19.4 24.2 19.6 14 7 0 1.2
+"Painting Guardian Gloves+5" "arms" 9.3 11.2 9.3 9.3 34.1 26.4 18.6 22.9 58.4 12.7 0 0.9
+"Paladin Gauntlets+5" "arms" 54.3 51.5 62.4 54.3 29.5 32.6 18.6 26.7 16.5 43.2 12 7.6
+"Shadow Gauntlets+5" "arms" 20.2 22.2 20.2 20.2 10.8 14 15.5 29.2 35.6 0 0 1.4
+"Silver Knight Gauntlets+5" "arms" 38.8 36.4 44.6 38 18.6 21.7 24.8 14 7.6 1.3 9 5.5
+"Sorcerer Gauntlets+10" "arms" 29 31.4 30.2 29 38.7 19.4 24.2 12.6 9.8 0 0 1.4
+"Steel Gauntlets+10" "arms" 60.5 56.9 69.6 60.5 31.5 29 19.4 19.6 12.6 0 14 8.3
+"Tattered Cloth Manchette+10" "arms" 29 32.2 29 29 33.9 43.6 24.2 19.6 49 1.4 0 1.6
+"Traveling Gloves+10" "arms" 12.1 14.3 12.1 12.1 12.1 7.3 9.7 7 5.6 0 0 0.7
+"Traveling Gloves+10 (Big Hat Set)" "arms" 29 31.4 30.2 29 38.7 19.4 24.2 19.6 19.6 0 0 1.6
+"Wanderer Manchette+10" "arms" 33.9 36.3 36.3 33.9 29 36.3 31.5 18.2 18.2 0 0 2.1
+"Witch Gloves+5" "arms" 21.7 24.1 21.7 21.7 27.9 14 17.1 20.3 20.3 7.6 0 1.7
+"Xanthous Gloves+5" "arms" 27.9 31.2 27.9 25.4 34.1 6.2 21.7 15.2 22.9 0 0 2.3
+"Antiquated Gloves" "arms" 8 8 8 8 19 3 11 8 8 16 0 0.6
+"Balder Gauntlets" "arms" 17 16.7 20.7 16.3 7 8 5 6 5 0 5 3.5
+"Black Iron Gauntlets" "arms" 40 38 46 40 17 30 13 25 14 8 18 9.2
+"Black Knight Gauntlets" "arms" 26 24.7 29.4 25.5 14 23 8 15 8 0 10 6
+"Black Leather Gloves" "arms" 13 13.9 13 13 12 8 9 14 18 0 0 1.8
+"Black Manchette" "arms" 11 12 11 11 14 11 9 10 10 5 0 1.8
+"Black Sorcerer Gauntlets" "arms" 8 8.2 8.7 8 17 12 12 18 18 2 0 1
+"Bracelet of the Great Lord" "arms" 15 16.2 17.3 13.8 15 19 19 14 7 18 0 2.8
+"Brass Gauntlets" "arms" 24 23 27.1 24 14 12 12 12 10 6 8 5.4
+"Brigand Gauntlets" "arms" 14 15.4 14 12.6 12 8 10 12 12 0 0 1.8
+"Catarina Gauntlets" "arms" 34 33.7 39.1 34 18 21 12 21 13 0 13 6.9
+"Chester`s Gloves" "arms" 10 13.5 10 10 10 7 10 15 11 0 0 1.5
+"Cleric Gauntlets" "arms" 24 24 27.6 24 13 12 9 14 9 0 12 7.4
+"Crimson Gloves" "arms" 7 7.7 7 7 7 4 5 4 4 4 0 0.8
+"Crystalline Gauntlets" "arms" 37 31.5 42.6 37 12 9 4 9 0 0 9 6.4
+"Dark Gauntlets" "arms" 27 27 29.7 25.4 18 18 18 18 12 0 9 5.8
+"Dingy Gloves" "arms" 9 11.3 9 9 13 8 10 14 10 14 0 1.2
+"Eastern Gauntlets" "arms" 6 5.7 7.4 5.8 1 4 2 5 4 0 2 1.5
+"Elite Cleric Gauntlets" "arms" 24 24 27.4 24 13 12 9 14 9 0 14 7.8
+"Elite Knight Gauntlets" "arms" 18 17.5 20.9 18 7 8 5 7 5 0 6 3.7
+"Gauntlets of Artorias" "arms" 20 18 23 21 10 21 10 10 10 9 7 4.6
+"Gauntlets of Favor" "arms" 21 19.9 24.4 21 10 12 8 11 10 10 8 5
+"Gauntlets of the Channelers" "arms" 17 16.3 19.4 17 13 13 10 12 10 0 3 3
+"Gauntlets of the Vanquisher" "arms" 11 10.5 12.7 11 7 7 6 6 5 4 4 3
+"Gauntlets of Thorns" "arms" 26 24.7 28.3 26 16 18 12 16 10 0 9 6.2
+"Giant Gauntlets" "arms" 41 37.7 46.3 41 19 29 19 19 11 0 21 9.7
+"Gold-Hemmed Black Gloves" "arms" 12 12.8 12 12 13 24 8 14 32 0 0 1.2
+"Golem Gauntlets" "arms" 54 49.7 63.2 54 25 23 10 27 17 0 20 9.7
+"Gough`s Gauntlets" "arms" 27 27 28.4 25.7 15 22 11 11 6 0 12 7
+"Guardian Gauntlets" "arms" 54 50.8 62.1 54 33 27 33 27 10 0 23 10.4
+"Hard Leather Gauntlets" "arms" 13 13.8 13 13 12 7 13 14 12 0 0 3.5
+"Havel`s Gauntlets" "arms" 54 45.9 62.1 54 32 32 29 27 5 13 28 11.5
+"Iron Bracelet" "arms" 17 17 17 16.7 10 10 9 11 7 2 7 4.3
+"Knight Gauntlets" "arms" 17 16.2 19.7 16.7 7 8 4 8 5 0 6 3.5
+"Leather Gauntlets" "arms" 12 12 14.4 11.6 10 8 4 12 7 0 5 3.6
+"Leather Gloves" "arms" 12 12.7 12 12 12 6 13 13 12 0 0 2.8
+"Lord`s Blade Gloves" "arms" 15 15 15.7 16.5 11 14 9 12 22 11 3 2.8
+"Mage Smith Gauntlets" "arms" 12 13 12.5 12 16 8 10 9 7 0 0 1.4
+"Maiden Gloves" "arms" 11 12.9 11 11 13 8 10 14 10 5 0 1.2
+"Moonlight Gloves" "arms" 3 3 3 3 5 3 3 4 4 5 0 0.5
+"Ornstein`s Gauntlets" "arms" 29 27.6 32.8 29 12 16 14 12 6 6 6 4
+"Painting Guardian Gloves" "arms" 6 7.2 6 6 22 17 12 18 46 10 0 0.9
+"Paladin Gauntlets" "arms" 35 33.3 40.3 35 19 21 12 21 13 34 12 7.6
+"Shadow Gauntlets" "arms" 13 14.3 13 13 7 9 10 23 28 0 0 1.4
+"Silver Knight Gauntlets" "arms" 25 23.5 28.8 24.5 12 14 16 11 6 1 9 5.5
+"Smough`s Gauntlets" "arms" 61 53.1 70.2 61 31 40 33 33 16 5 21 10.4
+"Sorcerer Gauntlets" "arms" 12 13 12.5 12 16 8 10 9 7 0 0 1.4
+"Steel Gauntlets" "arms" 25 23.5 28.8 25 13 12 8 14 9 0 14 8.3
+"Stone Gauntlets" "arms" 54 50.8 62.1 54 27 33 33 27 10 0 23 10.4
+"Tattered Cloth Manchette" "arms" 12 13.3 12 12 14 18 10 14 35 1 0 1.6
+"Traveling Gloves" "arms" 5 5.9 5 5 5 3 4 5 4 0 0 0.7
+"Traveling Gloves (Big Hat Set)" "arms" 12 13 12.5 12 16 8 10 14 14 0 0 1.6
+"Wanderer Manchette" "arms" 14 15 15 14 12 15 13 13 13 0 0 2.1
+"Witch Gloves" "arms" 14 15.5 14 14 18 9 11 16 16 6 0 1.7
+"Xanthous Gloves" "arms" 18 20.2 18 16.4 22 4 14 12 18 0 0 2.3
+"Anklet of the Great Lord" "legs" 15 16.2 17.3 13.8 15 19 19 14 7 18 0 2.8
+"Antiquated Skirt" "legs" 15 15 15 15 35 17 21 20 20 52 0 3
+"Balder Leggings" "legs" 22 21.6 26.8 21.1 10 12 9 12 9 0 9 6.4
+"Black Iron Leggings" "legs" 40 38 46 40 17 30 13 25 14 8 18 9.2
+"Black Knight Leggings" "legs" 30 28.5 33.9 29.4 15 26 9 17 9 0 11 7
+"Black Leather Boots" "legs" 12 12.8 12 12 19 13 15 23 31 0 0 3
+"Black Sorcerer Boots" "legs" 8 8.2 8.7 8 17 12 12 18 18 2 0 1
+"Black Tights" "legs" 16 17.4 16 16 22 17 13 15 15 9 0 2.8
+"Blood-Stained Skirt" "legs" 13 16.3 13 13 27 16 21 29 22 29 0 2.5
+"Boots of the Explorer" "legs" 14 13.3 16.1 14 10 11 7 8 6 5 6 4
+"Brass Leggings" "legs" 26 25 29.4 26 16 15 15 14 12 7 9 6.4
+"Brigand Trousers" "legs" 14 15.4 14 12.6 12 8 10 12 12 0 0 1.8
+"Catarina Leggings" "legs" 34 33.7 39.1 34 18 21 12 21 13 0 13 6.9
+"Chain Leggings" "legs" 18 18 21.6 17.5 14 12 5 15 9 0 7 4.6
+"Chester`s Trousers" "legs" 19 25.7 19 19 21 15 20 31 23 0 0 3.2
+"Cleric Leggings" "legs" 24 24 27.6 24 13 12 9 14 9 0 12 7.4
+"Crimson Waistcloth" "legs" 29 31.9 29 29 29 17 21 19 19 19 0 3.5
+"Crystalline Leggings" "legs" 37 31.5 42.6 37 12 9 4 9 0 0 9 6.4
+"Dark Leggings" "legs" 27 27 29.7 25.4 18 18 15 18 12 0 9 5.8
+"Eastern Leggings" "legs" 15 14.3 18.6 14.6 5 11 6 12 10 0 6 4
+"Elite Cleric Leggings" "legs" 24 24 27 24 13 12 9 14 9 0 14 7.8
+"Elite Knight Leggings" "legs" 23 22.3 26.7 23 11 11 9 14 9 0 12 6.9
+"Giant Leggings" "legs" 41 37.7 46.3 41 19 29 19 19 11 0 21 9.7
+"Gold-Hemmed Black Skirt" "legs" 23 24.6 23 23 27 49 17 32 78 0 0 3
+"Golem Leggings" "legs" 54 49.7 63.2 54 25 23 10 27 17 0 20 9.7
+"Gough`s Leggings" "legs" 31 31 32.6 29.5 17 25 13 13 7 0 13 8
+"Guardian Leggings" "legs" 54 50.8 62.1 54 33 27 33 27 10 0 23 10.4
+"Hard Leather Boots" "legs" 13 13.8 13 13 12 7 13 14 12 0 0 3.5
+"Havel`s Leggings" "legs" 54 45.9 62.1 54 32 32 29 27 5 13 28 11.5
+"Heavy Boots" "legs" 12 13.3 12 12 14 18 10 14 35 1 0 1.6
+"Hollow Soldier Waistcloth" "legs" 13 13 14.4 11.4 8 8 6 10 6 0 7 1.5
+"Hollow Thief`s Tights" "legs" 12 13.1 12 12.5 11 8 10 9 17 0 0 1.7
+"Hollow Warrior Waistcloth" "legs" 13 12.6 13.4 12.3 8 6 8 6 6 0 5 1.4
+"Holy Trousers" "legs" 14 16.5 14 14 15 8 12 15 13 0 0 2
+"Iron Leggings" "legs" 21 21 21 20.6 12 12 11 14 9 2 9 5.3
+"Knight Leggings" "legs" 22 20.9 25.5 21.6 10 11 8 14 9 0 12 6.4
+"Leather Boots" "legs" 12 12.7 12 12 12 6 13 13 12 0 0 2.8
+"Leggings of Artorias" "legs" 23 20.7 26.5 24.2 11 24 11 11 11 10 9 5.5
+"Leggings of Favor" "legs" 28 26.6 32.5 28 14 18 11 15 14 14 11 6.9
+"Leggings of Thorns" "legs" 26 24.7 28.3 26 16 18 12 16 10 0 9 6.2
+"Lord`s Blade Waistcloth" "legs" 27 27 28.4 29.7 20 25 16 22 38 20 6 5
+"Mage Smith Boots" "legs" 12 13 12.5 12 16 8 10 9 7 0 0 1.4
+"Maiden Skirt" "legs" 14 16.4 14 14 27 16 21 29 22 10 0 2.5
+"Moonlight Waistcloth" "legs" 12 12 12 12 18 10 10 14 14 18 0 1.8
+"Ornstein`s Leggings" "legs" 40 38 45.2 40 20 28 24 22 12 12 11 7
+"Painting Guardian Waistcloth" "legs" 22 26.4 22 22 30 22 21 21 51 10 0 4
+"Paladin Leggings" "legs" 35 33.3 40.3 35 19 21 12 21 13 34 12 7.6
+"Shadow Leggings" "legs" 13 14.3 13 13 7 9 10 23 28 0 0 1.4
+"Silver Knight Leggings" "legs" 28 26.3 32.2 27.4 15 16 19 14 7 1 11 6.5
+"Smough`s Leggings" "legs" 61 53.1 70.2 61 31 40 33 33 16 5 21 10.4
+"Sorcerer Boots" "legs" 12 13 12.5 12 16 8 10 9 7 0 0 1.4
+"Steel Leggings" "legs" 25 23.5 28.8 25 13 12 8 14 9 0 14 8.3
+"Stone Leggings" "legs" 54 50.8 62.1 54 27 33 33 27 10 0 23 10.4
+"Traveling Boots" "legs" 12 13 12.5 12 16 8 10 14 14 0 0 1.6
+"Waistcloth of the Channelers" "legs" 32 30.7 36.5 32 27 27 20 23 20 0 7 6
+"Wanderer Boots" "legs" 14 15 15 14 12 15 13 13 13 0 0 2.1
+"Witch Skirt" "legs" 17 18.9 17 17 27 12 17 23 28 8 0 2.5
+"Xanthous Waistcloth" "legs" 32 35.8 32 29.1 39 7 23 22 30 0 0 4
+"Antiquated Skirt+5" "legs" 23.3 23.3 23.3 23.3 54.3 26.4 32.6 25.4 25.4 66 0 3
+"Balder Leggings+10" "legs" 53.2 52.2 65 51.1 24.2 29 21.8 16.8 12.6 0 9 6.4
+"Black Iron Leggings+10" "legs" 62 58.9 71.3 62 26.4 46.5 20.2 31.7 17.8 10.2 18 9.2
+"Black Knight Leggings+5" "legs" 46.5 44.2 52.5 45.6 23.3 40.3 14 21.6 11.4 0 11 7
+"Black Leather Boots+10" "legs" 29 31.1 29 29 46 31.5 36.3 32.2 43.4 0 0 3
+"Black Sorcerer Boots+10" "legs" 19.4 19.9 21.1 19.4 41.1 29 29 25.2 25.2 2.8 0 1
+"Black Tights+5" "legs" 24.8 27 24.8 24.8 34.1 26.4 20.2 19.1 19 11.4 0 2.8
+"Blood-Stained Skirt+10" "legs" 31.5 39.3 31.5 31.5 65.3 38.7 50.8 40.6 30.8 40.6 0 2.5
+"Brass Leggings+5" "legs" 40.3 38.7 45.5 40.3 24.8 23.3 23.3 17.8 15.2 8.9 9 6.4
+"Brigand Trousers+10" "legs" 33.9 37.3 33.9 30.5 29 19.4 24.2 16.8 16.8 0 0 1.8
+"Catarina Leggings+5" "legs" 52.7 52.2 60.6 52.7 27.9 32.6 18.6 26.7 16.5 0 13 6.9
+"Chain Leggings+10" "legs" 43.6 43.6 52.3 42.3 33.9 29 12.1 21 12.6 0 7 4.6
+"Chester`s Trousers+5" "legs" 29.5 39.8 29.5 29.5 32.6 23.3 31 39.4 29.2 0 0 3.2
+"Cleric Leggings+10" "legs" 58.1 58.1 66.8 58.1 31.5 29 21.8 19.6 12.6 0 12 7.4
+"Crimson Waistcloth+5" "legs" 44.9 49.4 44.9 44.9 44.9 26.4 32.6 24.1 24.1 24.1 0 3.5
+"Dark Leggings+5" "legs" 41.9 41.9 46 39.3 27.9 27.9 23.3 22.9 15.2 0 9 5.8
+"Eastern Leggings+5" "legs" 23.3 22.1 28.8 22.6 7.8 17.1 9.3 15.2 12.7 0 6 4
+"Elite Cleric Leggings+10" "legs" 58.1 58.1 66.2 58.1 31.5 29 21.8 19.6 12.6 0 14 7.8
+"Elite Knight Leggings+10" "legs" 55.7 54 64.6 55.7 26.6 26.6 21.8 19.6 12.6 0 12 6.9
+"Giant Leggings+5" "legs" 63.6 58.5 71.8 63.6 29.5 44.9 29.5 24.1 14 0 21 9.7
+"Gough`s Leggings+5" "legs" 48.1 48.1 50.5 45.6 26.4 38.8 20.2 16.5 8.9 0 13 8
+"Hard Leather Boots+10" "legs" 31.5 33.3 31.5 29 29 16.9 31.5 19.6 16.8 0 0 3.5
+"Heavy Boots+10" "legs" 29 32.2 29 29 33.9 43.6 24.2 19.6 49 1.4 0 1.6
+"Hollow Soldier Waistcloth+10" "legs" 31.5 31.5 34.9 27.7 19.4 19.4 14.5 14 8.4 0 7 1.5
+"Hollow Thief`s Tights+10" "legs" 29 31.7 29 30.2 26.6 19.4 24.2 12.6 23.8 0 0 1.7
+"Hollow Warrior Waistcloth+10" "legs" 31.5 30.5 32.4 29.9 19.4 14.5 19.4 8.4 8.4 0 5 1.4
+"Holy Trousers+10" "legs" 33.9 40 33.9 33.9 36.3 19.4 29 21 18.2 0 0 2
+"Iron Leggings+10" "legs" 50.8 50.8 50.8 49.8 29 29 26.6 19.6 12.6 2.8 9 5.3
+"Knight Leggings+10" "legs" 53.2 50.6 61.8 52.2 24.2 26.6 19.4 19.6 12.6 0 12 6.4
+"Leather Boots+10" "legs" 29 30.8 29 29 29 14.5 31.5 18.2 16.8 0 0 2.8
+"Leggings of Artorias+5" "legs" 35.6 32.1 41 37.4 17.1 37.2 17.1 14 14 12.7 9 5.5
+"Leggings of Favor+5" "legs" 43.4 41.2 50.3 43.4 21.7 27.9 17.1 19.1 17.8 17.8 11 6.9
+"Leggings of Thorns+5" "legs" 40.3 38.3 43.9 40.3 24.8 27.9 18.6 20.3 12.7 0 9 6.2
+"Lord`s Blade Waistcloth+5" "legs" 41.9 41.9 43.9 46 31 38.8 24.8 27.9 48.3 25.4 6 5
+"Mage Smith Boots+10" "legs" 29 31.4 30.2 29 38.7 19.4 24.2 12.6 9.8 0 0 1.4
+"Maiden Skirt+10" "legs" 33.9 39.6 33.9 33.9 65.3 38.7 50.8 40.6 30.8 14 0 2.5
+"Painting Guardian Waistcloth+5" "legs" 34.1 40.9 34.1 34.1 46.5 34.1 32.6 26.7 64.8 12.7 0 4
+"Paladin Leggings+5" "legs" 54.3 51.5 62.4 54.3 29.5 32.6 18.6 26.7 16.5 43.2 12 7.6
+"Shadow Leggings+5" "legs" 20.2 22.2 20.2 20.2 10.8 14 15.5 29.2 35.6 0 0 1.4
+"Silver Knight Leggings+5" "legs" 43.4 40.8 49.9 42.5 23.3 24.8 29.5 17.8 8.9 1.3 11 6.5
+"Sorcerer Boots+10" "legs" 29 31.4 30.2 29 38.7 19.4 24.2 12.6 9.8 0 0 1.4
+"Steel Leggings+10" "legs" 60.5 56.9 69.6 60.5 31.5 29 19.4 19.6 12.6 0 14 8.3
+"Traveling Boots+10" "legs" 29 31.4 30.2 29 38.7 19.4 24.2 19.6 19.6 0 0 1.6
+"Wanderer Boots+10" "legs" 33.9 36.3 36.3 33.9 29 36.3 31.5 18.2 18.2 0 0 2.1
+"Witch Skirt+5" "legs" 26.4 29.2 26.4 26.4 41.9 18.6 26.4 29.2 35.6 10.2 0 2.5
+"Xanthous Waistcloth+5" "legs" 49.6 55.6 49.6 45.1 60.5 10.8 35.6 27.9 38.1 0 0 4
