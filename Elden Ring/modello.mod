@@ -1,5 +1,5 @@
 # =============================================
-# modello.mod - Armor Optimizer (Elden Ring (no DLC))
+# modello.mod - Armor Optimizer (Elden Ring)
 # =============================================
 
 

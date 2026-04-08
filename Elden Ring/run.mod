@@ -1,6 +1,6 @@
 reset;
 
-param UseDLC symbolic in {0,1} default 0;   # 1 = DLC attivo, 0 = Base Game
+param UseDLC symbolic in {0,1} default 1;   # 1 = DLC attivo, 0 = Base Game
 
 set ARMORS;
 
@@ -17,7 +17,7 @@ if UseDLC = 1 then {
 
 
 let weightLimit := 92;
-let constWeight := 5.5 + 10.5;
+let constWeight := 5.5 + 10.5;  #weight of rings, sword, other..
 
 option solver highs;
 
