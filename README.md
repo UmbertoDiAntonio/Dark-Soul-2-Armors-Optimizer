@@ -31,10 +31,10 @@ It uses linear programming to give you the mathematically best setup for your bu
 The model will solve automatically with the default settings and display the best armor pieces.
 
 **See README.md of specific directory for more info.** <br>
-Feel free to fork and extend it for Elden Ring!<br>
+Feel free to fork and extend it for Elden Ring Nightreign!<br>
 
 # Future Plans
-- Support for Elden Ring
+- Support for Elden Ring Nightreign and Dark Soul 3
 - Better output formatting
 
 # Contributing
