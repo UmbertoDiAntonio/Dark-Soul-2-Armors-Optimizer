@@ -9,12 +9,10 @@ It uses linear programming to give you the mathematically best setup for your bu
 ## Features
 
 - Optimizes physical, elemental and status defenses
-- Considers **poise**, **bleed**, **poison**, **petrify** and **curse** resistance
+- Considers all resistance to physic, elemental, status effects
 - Customizable weights for each defense type
 - Easy to add minimum requirements (e.g. minimum poise)
-- Two datasets included:
-  - **Light version** (recommended for free AMPL) – only upgraded armors
-  - **Full version** (792 variables) – requires a paid AMPL license
+
 
 ## How to Use
 
