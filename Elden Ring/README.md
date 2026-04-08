@@ -71,6 +71,6 @@ Higher value = higher priority for that stat.
 
 # Notes
 <br>
-Armors with effect +2 Endurance apply a bonus (depending on level) on carriable weight. it is approximated with +1.05 for level
+Armors with effect +2 Endurance apply a bonus (depending on level) on carriable weight. I approximated it with +1.05 for level.
 <br>
 
