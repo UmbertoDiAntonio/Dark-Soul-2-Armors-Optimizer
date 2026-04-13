@@ -32,7 +32,7 @@ The model will solve automatically with the default settings and display the bes
 Feel free to fork and extend it for Elden Ring Nightreign!<br>
 
 # Future Plans
-- Support for Elden Ring Nightreign and Dark Soul 3
+- Support for Dark Soul 3
 - Better output formatting
 
 # Contributing
